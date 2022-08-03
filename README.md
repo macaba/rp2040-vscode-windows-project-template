@@ -14,7 +14,7 @@ This is a Raspberry Pi Pico project template for running under VS Code on Window
   - Ensure that 'Add CMake to the system PATH for all users' is selected
 
 - Install Build Tools for Visual Studio 2022 _(vs_BuildTools.exe)_
-  - Select 'Desktop development with C++' and deselect all Optional components except for 
+  - Select 'Desktop development with C++' and ensure the following Optional components are selected for install
   ```
   MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest)
   Windows 10 SDK (10.0.19041.0)
@@ -22,6 +22,8 @@ This is a Raspberry Pi Pico project template for running under VS Code on Window
   ```
 
 - Install Git for windows if not already installed _(Git-2.37.1-64-bit.exe)_
+
+- Install Python 3 _(python-3.10.6-amd64.exe)_
 
 - Create 'C:\Pico' folder and checkout the pico-sdk
   - From within command prompt inside 'C:\Pico':
@@ -38,15 +40,9 @@ This is a Raspberry Pi Pico project template for running under VS Code on Window
 ## To use
 
 - Checkout or download
-- Run `build.bat`
-
-(Note 1: You may need to change the path to `vcvarsall.bat` within `Build.bat`.)
-
-(Note 2: Everytime you copy this template and/or change the project name within `CMakeLists.txt`, run `Build.bat`.)
-
-(Note 3: Once `Build.bat` has run once, VS Code will automatically do builds from there on when debugging.)
-- Open the project folder within VS Code as usual.
-- Press "F5" to start debugging using the "Pico Debug" profile.
+- For CLI build, run `build.bat`
+- For VS Code build, select the `[Pico]` build kit and click Build
+- For VS Code debugging, press "F5" to start debugging using the "Pico Debug" profile
 
 ## Credit
 

@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Pico",
+        "environmentSetupScript"  : "${workspaceFolder}/environment.bat"
+    }
+]
