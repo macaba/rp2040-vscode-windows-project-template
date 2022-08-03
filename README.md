@@ -14,7 +14,12 @@ This is a Raspberry Pi Pico project template for running under VS Code on Window
   - Ensure that 'Add CMake to the system PATH for all users' is selected
 
 - Install Build Tools for Visual Studio 2022 _(vs_BuildTools.exe)_
-  - Select 'Desktop development with C++' and deselect all Optional components except for 'MSVC v143...' and 'C++ CMake tools for Windows'
+  - Select 'Desktop development with C++' and deselect all Optional components except for 
+  ```
+  MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest)
+  Windows 10 SDK (10.0.19041.0)
+  C++ CMake tools for Windows
+  ```
 
 - Install Git for windows if not already installed _(Git-2.37.1-64-bit.exe)_
 

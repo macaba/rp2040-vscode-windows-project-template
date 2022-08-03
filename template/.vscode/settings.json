@@ -9,14 +9,17 @@
         "launch": {
             "visibility": "hidden"
         },
-        "build": {
-            "visibility": "hidden"
-        },
-        "buildTarget": {
-            "visibility": "hidden"
-        }
+        //"build": {
+        //    "visibility": "hidden"
+        //},
+        //"buildTarget": {
+        //    "visibility": "hidden"
+        //}
     },
     "cmake.generator": "NMake Makefiles",
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "C:/Pico/pico-sdk"
+    },
     "workbench.startupEditor": "newUntitledFile",
     "cortex-debug.gdbPath": "arm-non-eabi-gdb",
     "cortex-debug.openocdPath": "C:/Pico/openocd_picoprobe/openocd.exe",
