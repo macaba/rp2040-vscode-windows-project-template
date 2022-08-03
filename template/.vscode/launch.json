@@ -9,8 +9,6 @@
             "request": "launch",
             "servertype": "openocd",
             "device": "Pico2040",
-            "svdFile": "${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd",
-            "runToMain": true,
             // Work around for stopping at main on restart
             "postRestartCommands": [
                 "break main",
@@ -20,7 +18,9 @@
                 "interface/picoprobe.cfg",
                 "target/rp2040.cfg"
             ],
-            "searchDir": ["${env:PICO_SDK_PATH}/../openocd_picoprobe/tcl"]
+            "searchDir": ["C:/Pico/openocd_picoprobe/tcl"],
+            "svdFile": "${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd",
+            "runToMain": true,
         }
     ]
 }

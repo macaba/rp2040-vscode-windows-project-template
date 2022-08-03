@@ -16,6 +16,11 @@
             "visibility": "hidden"
         }
     },
-    "cmake.buildBeforeRun": true,
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+    "cmake.generator": "NMake Makefiles",
+    "workbench.startupEditor": "newUntitledFile",
+    "cortex-debug.gdbPath": "arm-non-eabi-gdb",
+    "cortex-debug.openocdPath": "C:/Pico/openocd_picoprobe/openocd.exe",
+    "cmake.configureOnOpen": true,
+    "cmake.buildBeforeRun": true
+    //"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
