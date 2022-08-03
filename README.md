@@ -4,39 +4,31 @@ This is a Raspberry Pi Pico project template for running under VS Code on Window
 
 ## First installation
 
-- Install Visual Studio Code
-(At time of writing: VSCodeUserSetup-x64-1.69.2.exe)
+- Install Visual Studio Code _(VSCodeUserSetup-x64-1.69.2.exe)_
 
 - Install extensions in VS Code:
   - C/C++ Extension Pack
   - Cortex-Debug
-
-- Configure VS Code settings:
-  - Settings > Extensions > CMake Tools > Cmake: Configure Environment > Add Item
-  - PICO_SDK_PATH C:\Pico\pico-sdk
   
-- Install CMake
-(At time of writing: cmake-3.23.3-windows-x86_64.msi)
+- Install CMake _(cmake-3.23.3-windows-x86_64.msi)_
   - Ensure that 'Add CMake to the system PATH for all users' is selected
 
-- Install Build Tools for Visual Studio 2022
-(At time of writing: vs_BuildTools.exe)
+- Install Build Tools for Visual Studio 2022 _(vs_BuildTools.exe)_
   - Select 'Desktop development with C++' and deselect all Optional components except for 'MSVC v143...' and 'C++ CMake tools for Windows'
 
-- Install Git for windows if not already installed
-(At time of writing: Git-2.37.1-64-bit.exe)
+- Install Git for windows if not already installed _(Git-2.37.1-64-bit.exe)_
 
 - Create 'C:\Pico' folder and checkout the pico-sdk
   - From within command prompt inside 'C:\Pico':
+  ```
   git clone -b master https://github.com/raspberrypi/pico-sdk.git
   cd pico-sdk
   git submodule update --init
+  ```
   
-- Install Arm GNU Toolchain
-(At time of writing: gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi.exe)
+- Install Arm GNU Toolchain _(gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi.exe)_
   
-- Extract openocd to 'C:\Pico\openocd_picoprobe'
-(At time of writing: openocd_picoprobe.zip available in this repo)
+- Extract openocd to 'C:\Pico\openocd_picoprobe' _(openocd_picoprobe.zip available in this repo)_
 
 ## To use
 
