@@ -2,6 +2,8 @@
 
 This is a Raspberry Pi Pico project template for running under VS Code on Windows with full debugging (using Picoprobe) without any CLI usage during normal development.
 
+IMPORTANT: Change the paths in environment.bat to match your system if you don't have the same versions as shown in the installation guide below.
+
 ## First installation
 
 - Install Visual Studio Code _(VSCodeUserSetup-x64-1.69.2.exe)_
