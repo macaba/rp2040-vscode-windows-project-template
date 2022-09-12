@@ -21,5 +21,7 @@
     "cmake.buildBeforeRun": true,
     "cmake.showSystemKits": false,
     "cortex-debug.gdbPath": "arm-non-eabi-gdb",
-    "cortex-debug.openocdPath": "C:/Pico/openocd_picoprobe/openocd.exe"
+	//"cortex-debug.gdbPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gdb.exe",
+    "cortex-debug.openocdPath": "C:/Pico/openocd_picoprobe/openocd.exe",
+    //"cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
 }
