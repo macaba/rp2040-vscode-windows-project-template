@@ -6,20 +6,20 @@ IMPORTANT: Change the paths in environment.bat to match your system if you don't
 
 ## First installation
 
-- Install Visual Studio Code _(VSCodeUserSetup-x64-1.69.2.exe)_
+- Install Visual Studio Code _(VSCodeUserSetup-x64-1.74.2.exe)_
 
 - Install extensions in VS Code:
   - C/C++ Extension Pack
   - Cortex-Debug
   
-- Install CMake _(cmake-3.23.3-windows-x86_64.msi)_
+- Install CMake _(cmake-3.25.1-windows-x86_64.msi)_
   - Ensure that 'Add CMake to the system PATH for all users' is selected
 
 - Install Build Tools for Visual Studio 2022 _(vs_BuildTools.exe)_
   - Select 'Desktop development with C++' and ensure the following Optional components are selected for install
   ```
   MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest)
-  Windows 10 SDK (10.0.19041.0)
+  Windows 11 SDK (10.0.22000.0)
   C++ CMake tools for Windows
   ```
 
