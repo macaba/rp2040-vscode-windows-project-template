@@ -39,6 +39,8 @@ IMPORTANT: Change the paths in environment.bat to match your system if you don't
   
 - Extract openocd to 'C:\Pico\openocd_picoprobe' _(openocd_picoprobe.zip available in this repo)_
 
+- Use Zadig to change the Picoprobe driver from 'None' to 'WinUSB'
+
 ## To use
 
 - Checkout or download
