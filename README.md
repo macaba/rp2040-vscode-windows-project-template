@@ -21,9 +21,9 @@ to
 - Open VS Code using the `Pico - Visual Studio Code` start menu item (Important! This initialises various environment variables)
 
 - Open the project folder in VS code
-  - Click "Yes, I trust the authors" on the dialog
-  - Click "Pico ARM GCC` on the list that comes up at the top
+  - Click `Yes, I trust the authors` on the dialog
+  - Click `Pico ARM GCC` on the list that comes up at the top
   - Wait a few seconds for the project to self-initialise
   - Open `main.c`
-  - Press F5 to Build and Start Debugging
+  - Press `F5` to Build and Start Debugging
   - If the pico-probe is alive and probably connected (check the connection of the 3 wires if not) then the onboard Pi Pico LED should start flashing
