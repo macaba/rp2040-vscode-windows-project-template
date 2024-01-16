@@ -27,4 +27,4 @@ to
   - Wait a few seconds for the project to self-initialise
   - Open `main.c`
   - Press `F5` to Build and Start Debugging
-  - If the pico-probe is alive and probably connected (check the connection of the 3 wires if not) then the onboard Pi Pico LED should start flashing
+  - If the pico-probe is alive and properly connected (check the connection of the 3 wires if not) then the onboard Pi Pico LED should start flashing
