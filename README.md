@@ -5,7 +5,8 @@ This is a Raspberry Pi Pico project template for running under VS Code on Window
 ## First installation
 
 - Install the Windows Pico installer (v1.5.1 tested at this time)  
-https://github.com/raspberrypi/pico-setup-windows/releases/latest/download/pico-setup-windows-x64-standalone.exe
+https://github.com/raspberrypi/pico-setup-windows/releases/latest/download/pico-setup-windows-x64-standalone.exe  
+(Note: this also installs VS Code if not already installed)
 
 - Flash the pico-probe with `picoprobe.uf2` (included in the `files` folder)
 
