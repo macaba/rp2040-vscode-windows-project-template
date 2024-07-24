@@ -1,4 +1,14 @@
 {
     "cmake.buildBeforeRun": true,
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "actionButtons": {
+        "commands": [
+            {
+                "name": "Flash RP2040",
+                "useVsCodeApi": true,
+                "command": "workbench.action.tasks.runTask",
+                "args": ["Flash"]
+            }
+        ],
+    },
 }
